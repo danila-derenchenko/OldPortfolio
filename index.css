@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    font-family: "Manrope";
+}
+
+body {
+    background: #202020;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: rgba(50, 50, 50, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.headerNav {
+    opacity: 0.7;
+    animation: appearance 3.5s forwards;
+}
+
+.menu {
+    display: flex;
+    gap: 56px;
+}
+
+.menuText {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    color: #DEDEDE;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.introBigText {
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -0.5px;
+    color: #DEDEDE;
+}
+
+.photoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 450px;
+}
+
+@keyframes appearance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
