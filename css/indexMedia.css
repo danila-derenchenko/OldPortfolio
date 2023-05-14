@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .container {
+        width: 366px;
+        margin: 0 auto;
+    }
+
+    .intro {
+        display: block;
+        width: 366px;
+    }
+
+    .photoBox {
+        display: none;
+    }
+
+    .photoBoxMobile {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+}
