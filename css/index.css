@@ -16,9 +16,13 @@ body {
     margin: 0 auto;
 }
 
+/* хедер */
+
 .header {
+    position: fixed;
     width: 100%;
     height: 80px;
+    backdrop-filter: blur(10px);
     background: rgba(50, 50, 50, 0.7);
     display: flex;
     align-items: center;
@@ -44,9 +48,18 @@ body {
     color: #DEDEDE;
 }
 
+/* интро */
+
 .intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 150px;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .introBigText {
@@ -54,6 +67,16 @@ body {
     line-height: 64px;
     letter-spacing: -0.5px;
     color: #DEDEDE;
+    max-width: 530px;
+    animation: appearanceTextIntro 3s forwards;
+}
+
+.introSmallText {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #959595;
+    animation: appearanceSmallTextIntro 5s forwards;
 }
 
 .photoBox {
@@ -65,14 +88,123 @@ body {
 .photo {
     border-radius: 50%;
     height: 450px;
+    animation: appearanceSmallTextIntro 5s forwards;
 }
 
 .photoBoxMobile {
     display: none;
 }
 
+/* gallery */
+
+.gallery {
+    margin-top: 150px;
+    margin-bottom: 240px;
+}
+
+.feauturedWork {
+    margin-bottom: 80px;
+    max-width: 230px;
+    display: flex;
+    justify-content: space-between;
+    animation: appearanceSmallTextIntro 7s forwards;
+}
+
+.feauturedWork:hover {
+    cursor: pointer;
+}
+
+.fText {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    opacity: 0.7;
+}
+
+.galleryBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.galleryPhoto {
+    border-radius: 4px;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contactBigText {
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #DEDEDE;
+}
+
+.contactSmallText {
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #959595;
+}
+
+.boxPochta {
+    width: 400px;
+    height: 60px;
+    background: #9D9D9D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pochtaEm {
+    width: 21px;
+}
+
+.pochtaText {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
 @keyframes appearance {
     0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes appearanceTextIntro {
+    from {
+        margin-top: -1140px;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
+@keyframes appearanceSmallTextIntro {
+    0% {
+        opacity: 0;
+    }
+    70% {
         opacity: 0;
     }
     100% {

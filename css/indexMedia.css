@@ -4,6 +4,20 @@
         margin: 0 auto;
     }
 
+    .logo {
+        display: none;
+    }
+
+    .headerNav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
     .intro {
         display: block;
         width: 366px;
