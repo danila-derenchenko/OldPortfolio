@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .text {
@@ -28,6 +29,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 100px;
+    z-index: 1;
 }
 
 .headerNav {
@@ -180,6 +182,32 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
+}
+
+.work {
+    margin-bottom: 200px;
+}
+
+.workBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    transition-duration: 1s;
+}
+
+.workText {
+    text-align: center;
+}
+
+.workEl {
+    width: 800px;
+}
+
+.workBox:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 1s;
 }
 
 @keyframes appearance {
