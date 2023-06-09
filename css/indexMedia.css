@@ -37,8 +37,14 @@
         font-size: 36px;
         text-align: center;
     }
+
+    .work {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
     .workEl {
-        max-width: 400px;
+        max-width: 300px;
         margin-top: 15px;
     }
 }
