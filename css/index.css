@@ -60,6 +60,7 @@
 
 .photoBoxMobile {
     display: none;
+    padding-top: 150px;
 }
 
 /* aboutMe */
@@ -139,6 +140,10 @@
     gap: 30px;
 }
 
+.contactIntro {
+    text-align: center;
+}
+
 .boxContact {
     width: 400px;
     height: 90px;
@@ -178,8 +183,14 @@
     justify-content: center;
 }
 
+/* work */
+
 .work {
     margin-bottom: 200px;
+}
+
+.workIntro {
+    text-align: center;
 }
 
 .workBox {
