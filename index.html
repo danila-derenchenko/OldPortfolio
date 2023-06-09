@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/initualStyles.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/indexMedia.css">
     <title>My portfolio</title>
@@ -27,10 +28,10 @@
     </section>
     <section class="intro container">
         <div class="introText">
-            <p class="introBigText text">
+            <p class="bigText introBigText text">
                 Здравствуйте! Я Данила Деренченко, Front-end разработчик из Самары
             </p>
-            <p class="introSmallText text">
+            <p class="smallText introSmallText text">
                 Я помогаю компаниям достигать их целей, разрабатывая для них программные продукты
             </p>
         </div>
@@ -38,21 +39,54 @@
             <img src="./img/photo.jpg" alt="My photo" class="photo">
         </div>
     </section>
-    <section class="gallery container">
-        <div class="feauturedWork">
-            <img src="./img/strelka.svg" alt="strelka" class="strelka">
-            <p class="fText text">Избранные работы</p>
-        </div>
-        <div class="galleryBox">
-            <img src="./img/1.jpg" alt="gallery" class="galleryPhoto">
-            <img src="./img/2.jpg" alt="gallery" class="galleryPhoto">
-            <img src="./img/3.jpg" alt="gallery" class="galleryPhoto">
-            <img src="./img/4.jpg" alt="gallery" class="galleryPhoto">
+    <section class="aboutMe container">
+        <p class="introSmallText bigText text aboutMeH">
+            Обо мне
+        </p>
+        <p class="smallText introSmallText text aboutMeP">
+            Всем привет, меня зовут Данила Деренченко, я Frontend - разработчик. 
+            Занимаюсь разработкой фронтенд приложений с использованием различных 
+            технологий.
+        </p>
+        <p class="introSmallText bigText text aboutMeH">
+            Мои навыки:
+        </p>
+        <div class="skillsBox">
+            <div class="stillElBox">
+                <p class="text aboutMeH skillName">HTML5</p>
+                <div class="skillLine">
+                    <div class="skillWidthHTML"></div>
+                </div>
+            </div>
+            <div class="stillElBox">
+                <p class="text aboutMeH skillName">CSS3</p>
+                <div class="skillLine">
+                    <div class="skillWidthCSS"></div>
+                </div>
+            </div>
+            <div class="stillElBox">
+                <p class="text aboutMeH skillName">React.js</p>
+                <div class="skillLine">
+                    <div class="skillWidthReact"></div>
+                </div>
+            </div>
+            <div class="stillElBox">
+                <p class="text aboutMeH skillName">Vue.js</p>
+                <div class="skillLine">
+                    <div class="skillWidthVue"></div>
+                </div>
+            </div>
+            <div class="stillElBox">
+                <p class="text aboutMeH skillName">Node.js</p>
+                <div class="skillLine">
+                    <div class="skillWidthNode"></div>
+                </div>
+            </div>
         </div>
         <span id="work"></span>
     </section>
     <section class="work container">
-        <p class="contactBigText text">
+        <p class="averageText text">
             Мои текущие проекты
         </p>
         <div class="workBox">
@@ -63,7 +97,7 @@
     </section>
     <span id="contact"></span>
     <section class="contact container">
-        <p class="contactBigText text">
+        <p class="averageText text">
             Мои контакты
         </p>
         <p class="contactSmallText text">
