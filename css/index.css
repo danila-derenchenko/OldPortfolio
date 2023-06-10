@@ -193,11 +193,18 @@
     text-align: center;
 }
 
+.workFlex {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
 .workBox {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     transition-duration: 1s;
 }
 
@@ -213,6 +220,12 @@
     cursor: pointer;
     transform: scale(1.2);
     transition-duration: 1s;
+}
+
+.urlGit {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes appearance {
