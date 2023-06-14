@@ -1,3 +1,7 @@
+:root {
+    --colorLine: rgb(67, 50, 196);
+}
+
 /* хедер */
 
 .header {
@@ -104,31 +108,31 @@
 .skillWidthHTML {
     height: 100%;
     width: 75%;
-    background-color: #DEDEDE;
+    background-color: var(--colorLine);
 }
 
 .skillWidthCSS {
     height: 100%;
     width: 75%;
-    background-color: #DEDEDE;
+    background-color: var(--colorLine);
 }
 
 .skillWidthReact {
     height: 100%;
     width: 50%;
-    background-color: #DEDEDE;
+    background-color: var(--colorLine);
 }
 
 .skillWidthVue {
     height: 100%;
     width: 50%;
-    background-color: #DEDEDE;
+    background-color: var(--colorLine);
 }
 
 .skillWidthNode {
     height: 100%;
     width: 35%;
-    background-color: #DEDEDE;
+    background-color: var(--colorLine);
 }
 
 /* Contact */
@@ -232,6 +236,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -241,6 +246,7 @@
     from {
         margin-top: -1140px;
     }
+
     to {
         margin-top: 0;
     }
@@ -250,9 +256,11 @@
     0% {
         opacity: 0;
     }
+
     70% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
