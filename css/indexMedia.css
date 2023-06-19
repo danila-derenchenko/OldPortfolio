@@ -1,14 +1,22 @@
-@media screen and (max-width: 600px) {
-    .container {
-        width: 366px;
-        margin: 0 auto;
+@media screen and (max-width: 1000px) {
+
+    .bigText {
+        font-size: 40px;
     }
 
     .logo {
         display: none;
     }
 
+    .mobileheader {
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr 0.5fr;
+    }
+
     .headerNav {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
@@ -19,8 +27,18 @@
     }
 
     .intro {
-        display: block;
+        display: none;
         width: 366px;
+        padding: 0;
+    }
+
+    .introText {
+        display: flex;
+        justify-content: center;
+    }
+
+    .introBigText {
+        width: 100%;
     }
 
     .photoBox {
@@ -49,5 +67,13 @@
     }
     .boxContact {
         max-width: 350px;
+    }
+
+    .bigText {
+        text-align: center;
+    }
+
+    .aboutMeH {
+        text-align: center;
     }
 }

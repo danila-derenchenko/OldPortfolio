@@ -14,110 +14,140 @@
 </head>
 <body>
     <header class="header">
-        <nav class="headerNav container">
-            <div class="logo"></div>
-            <div class="menu">
-                <a href="#" class="menuText text">Home</a>
-                <a href="#work" class="menuText text">Work</a>
-                <a href="#contact" class="menuText text">Contact</a>
-            </div>
-        </nav>
+        <div class="container mobileheader">
+            <div></div>
+            <nav class="headerNav">
+                <div class="logo"></div>
+                <div class="menu">
+                    <a href="#" class="menuText text">Home</a>
+                    <a href="#work" class="menuText text">Work</a>
+                    <a href="#contact" class="menuText text">Contact</a>
+                </div>
+            </nav>
+            <div></div>
+        </div>
     </header>
-    <section class="photoBoxMobile container">
-        <img src="./img/photo.jpg" alt="My photo" class="photo">
-    </section>
-    <section class="intro container">
-        <div class="introText">
-            <p class="bigText introBigText text">
-                Здравствуйте! Я Данила Деренченко, Front-end разработчик из Самары
-            </p>
-            <p class="smallText introSmallText text">
-                Я помогаю компаниям достигать их целей, разрабатывая для них программные продукты
-            </p>
-        </div>
-        <div class="photoBox">
-            <img src="./img/photo.jpg" alt="My photo" class="photo">
-        </div>
-    </section>
-    <section class="aboutMe container">
-        <p class="introSmallText bigText text aboutMeH">
-            Обо мне
-        </p>
-        <p class="smallText introSmallText text aboutMeP">
-            Всем привет, меня зовут Данила Деренченко, я Frontend - разработчик. 
-            Занимаюсь разработкой фронтенд приложений с использованием различных 
-            технологий.
-        </p>
-        <p class="introSmallText bigText text aboutMeH">
-            Мои навыки:
-        </p>
-        <div class="skillsBox">
-            <div class="stillElBox">
-                <p class="text aboutMeH skillName">HTML5</p>
-                <div class="skillLine">
-                    <div class="skillWidthHTML"></div>
+    <section class="container">
+        <section class="leftBlock"></section>
+        <section class="mainBlock">
+            <section class="photoBoxMobile">
+                <img src="./img/photo.jpg" alt="My photo" class="photo">
+            </section>
+            <section class="intro">
+                <div class="introText">
+                    <p class="bigText introBigText text">
+                        Здравствуйте! Я Данила Деренченко, Front-end разработчик из Самары
+                    </p>
                 </div>
-            </div>
-            <div class="stillElBox">
-                <p class="text aboutMeH skillName">CSS3</p>
-                <div class="skillLine">
-                    <div class="skillWidthCSS"></div>
+                <div class="photoBox">
+                    <img src="./img/photo.jpg" alt="My photo" class="photo">
                 </div>
-            </div>
-            <div class="stillElBox">
-                <p class="text aboutMeH skillName">React.js</p>
-                <div class="skillLine">
-                    <div class="skillWidthReact"></div>
+            </section>
+            <section class="aboutMe">
+                <p class="introSmallText bigText text aboutMeH">
+                    Обо мне
+                </p>
+                <p class="smallText introSmallText text aboutMeP">
+                    Всем привет, меня зовут Данила Деренченко, я Frontend - разработчик. 
+                    Занимаюсь разработкой фронтенд приложений с использованием различных 
+                    технологий.
+                </p>
+                <p class="introSmallText bigText text aboutMeH">
+                    Мои навыки:
+                </p>
+                <div class="skillsBox">
+                    <div class="stillElBox">
+                        <p class="text aboutMeH skillName">HTML5</p>
+                        <div class="skillLine">
+                            <div class="skillWidthHTML"></div>
+                        </div>
+                    </div>
+                    <div class="stillElBox">
+                        <p class="text aboutMeH skillName">CSS3</p>
+                        <div class="skillLine">
+                            <div class="skillWidthCSS"></div>
+                        </div>
+                    </div>
+                    <div class="stillElBox">
+                        <p class="text aboutMeH skillName">React.js</p>
+                        <div class="skillLine">
+                            <div class="skillWidthReact"></div>
+                        </div>
+                    </div>
+                    <div class="stillElBox">
+                        <p class="text aboutMeH skillName">Vue.js</p>
+                        <div class="skillLine">
+                            <div class="skillWidthVue"></div>
+                        </div>
+                    </div>
+                    <div class="stillElBox">
+                        <p class="text aboutMeH skillName">Node.js</p>
+                        <div class="skillLine">
+                            <div class="skillWidthNode"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="stillElBox">
-                <p class="text aboutMeH skillName">Vue.js</p>
-                <div class="skillLine">
-                    <div class="skillWidthVue"></div>
+                <span id="work"></span>
+            </section>
+            <section class="work">
+                <p class="bigText text workIntro">
+                    Мои текущие проекты
+                </p>
+                <div class="workFlex">
+                    <p class="text contactText urlGit">1) Квиз</p>
+                    <div class="workBox">
+                        <a href="https://danila-derenchenko.github.io/quiz/" class="workEl"><img src="./img/quiz.png" alt="work" class="workEl"></a>
+                    </div>
+                    <a href="https://danila-derenchenko.github.io/quiz/" class="text contactText urlGit">
+                        Ссылка на сайт
+                    </a>
+                    <a href="https://github.com/danila-derenchenko/quiz" class="text contactText urlGit">
+                        Ссылка на исходник GitHub
+                    </a>
                 </div>
-            </div>
-            <div class="stillElBox">
-                <p class="text aboutMeH skillName">Node.js</p>
-                <div class="skillLine">
-                    <div class="skillWidthNode"></div>
+                <div class="workFlex">
+                    <p class="text contactText urlGit">2) Список пользователей с функцией поиска, и выбора пользователей</p>
+                    <div class="workBox">
+                        <a href="https://danila-derenchenko.github.io/userslist/" class="workEl"><img src="./img/users.png" alt="work" class="workEl"></a>
+                    </div>
+                    <a href="https://danila-derenchenko.github.io/userslist/" class="text contactText urlGit">
+                        Ссылка на сайт
+                    </a>
+                    <a href="https://github.com/danila-derenchenko/userslist" class="text contactText urlGit">
+                        Ссылка на исходник GitHub
+                    </a>
                 </div>
-            </div>
-        </div>
-        <span id="work"></span>
+                <div class="workFlex">
+                    <p class="text contactText urlGit">3) Internet shop (в разработке)</p>
+                    <div class="workBox">
+                        <a href="https://daniladezelop.github.io/vueshop/" class="workEl"><img src="./img/shop.png" alt="work" class="workEl"></a>
+                    </div>
+                    <a href="https://github.com/danila-derenchenko/VueInternetShop" class="text contactText urlGit">
+                        Ссылка на исходник GitHub
+                    </a>
+                </div>
+            </section>
+            <span id="contact"></span>
+            <section class="contact">
+                <p class="bigText text contactIntro">
+                    Мои контакты
+                </p>
+                <p class="contactSmallText text">
+                    Если заинтересовались, пишите или звоните
+                </p>
+                <div class="boxContact">
+                    <div class="boxPochta">
+                        <img src="./img/pochta.svg" alt="pochta" class="pochtaEm">
+                        <p class="contactText text">danila.derenchenko@yandex.ru</p>
+                    </div>
+                    <div class="phoneBox">
+                        <p class="contactText text">+79297066917</p>
+                    </div>
+                </div>
+            </section>
+            <script src="./js/index.js" defer></script>
+        </section>
+        <section class="rightBlock"></section>
     </section>
-    <section class="work container">
-        <p class="bigText text workIntro">
-            Мои текущие проекты
-        </p>
-        <div class="workFlex">
-            <div class="workBox">
-                <a href="https://daniladezelop.github.io/vueshop/" class="workEl"><img src="./img/shop.png" alt="work" class="workEl"></a>
-               
-            </div>
-            <a href="https://github.com/danila-derenchenko/VueInternetShop" class="text contactText urlGit">
-                Ссылка на исходник GitHub
-            </a>
-            <p class="fText workText text">Internet shop</p>
-        </div>
-    </section>
-    <span id="contact"></span>
-    <section class="contact container">
-        <p class="bigText text contactIntro">
-            Мои контакты
-        </p>
-        <p class="contactSmallText text">
-            Если заинтересовались, пишите или звоните
-        </p>
-        <div class="boxContact">
-            <div class="boxPochta">
-                <img src="./img/pochta.svg" alt="pochta" class="pochtaEm">
-                <p class="contactText text">danila.derenchenko@yandex.ru</p>
-            </div>
-            <div class="phoneBox">
-                <p class="contactText text">+79297066917</p>
-            </div>
-        </div>
-    </section>
-    <script src="./js/index.js" defer></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 :root {
-    --colorLine: rgb(67, 50, 196);
+    --colorLine: rgb(51, 97, 224);
 }
 
 /* хедер */
@@ -119,19 +119,19 @@
 
 .skillWidthReact {
     height: 100%;
-    width: 50%;
+    width: 60%;
     background-color: var(--colorLine);
 }
 
 .skillWidthVue {
     height: 100%;
-    width: 50%;
+    width: 30%;
     background-color: var(--colorLine);
 }
 
 .skillWidthNode {
     height: 100%;
-    width: 35%;
+    width: 30%;
     background-color: var(--colorLine);
 }
 
@@ -207,7 +207,7 @@
 .workBox {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     transition-duration: 1s;
 }
@@ -218,6 +218,7 @@
 
 .workEl {
     width: 800px;
+    border-radius: 30px;
 }
 
 .workBox:hover {
@@ -227,7 +228,9 @@
 }
 
 .urlGit {
+    margin-top: 70px;
     text-decoration: none;
+    font-size: 25px;
     margin-left: auto;
     margin-right: auto;
 }
