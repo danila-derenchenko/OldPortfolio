@@ -113,25 +113,31 @@
 
 .skillWidthCSS {
     height: 100%;
-    width: 75%;
+    width: 50%;
     background-color: var(--colorLine);
 }
 
 .skillWidthReact {
     height: 100%;
-    width: 60%;
+    width: 50%;
     background-color: var(--colorLine);
 }
 
 .skillWidthVue {
     height: 100%;
-    width: 30%;
+    width: 25%;
     background-color: var(--colorLine);
 }
 
 .skillWidthNode {
     height: 100%;
-    width: 30%;
+    width: 25%;
+    background-color: var(--colorLine);
+}
+
+.skillWidthSQL {
+    height: 100%;
+    width: 25%;
     background-color: var(--colorLine);
 }
 
